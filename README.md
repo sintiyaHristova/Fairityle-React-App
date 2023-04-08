@@ -25,40 +25,40 @@ https://fairityle-sintiya.netlify.app/
 
 In the project directory, you can run: 
 
-Npm install 
+-  Npm install 
 
-Npm run build 
+-  Npm run build 
 
-Npm start 
+-  Npm start 
 
 ## Features 
 
 # Public 
 
- - Home page 
+-  Home page 
 
 -  Login 
 
-- Register 
+-  Register 
 
-- Catalogue     
+-  Catalogue     
 
-- Details 
+-  Details 
 
  
 
 # Private 
 
-Logout 
+-  Logout 
 
-Home page   
+-  Home page   
 
-Create 
+-  Create 
 
-Catalogue   
+-  Catalogue   
 
- Edit 
+-  Edit 
 
-Details 
+-  Details 
 
-Profile – My fairityles 
+
