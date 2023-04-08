@@ -1,0 +1,87 @@
+.myFairityle {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+h1 {
+  padding: 30px;
+}
+
+.delete {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 0 auto;
+  color: #39630f;
+  width: 30px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+.delete:hover {
+  text-decoration: none;
+  background: #39630f;
+}
+
+.edit {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 0 auto;
+  color: #39630f;
+  position: relative;
+  top: 5px;
+  right: 2px;
+  padding: 3px;
+}
+
+.edit:hover {
+  background-color: #39630f;
+  text-decoration: none;
+  color: white;
+}
+
+.heroes {
+  padding: 3px;
+  transition: transform 0.2s;
+}
+
+.heroes:hover {
+  transform: scale(1.1);
+}
+
+.fairityle-link {
+  color: white;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 20px;
+  background: -webkit-linear-gradient(to right, #b7e1e1, #1a3954);
+  background: linear-gradient(to right, #b7e1e1, #1a3954);
+  border-radius: 8px;
+}
+
+.fairityle-link:hover {
+  background-color: #39630f;
+  text-decoration: none;
+  color: rgb(215, 208, 240);
+}
+
+.create-hero {
+  width: 1200px;
+  height: 500px;
+}
+
+.textarea {
+  width: 500px;
+  height: 100px;
+}
+
+.input {
+  width: 50px;
+  height: 30px;
+}
+
+

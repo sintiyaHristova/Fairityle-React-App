@@ -1,0 +1,77 @@
+.alert {
+  color: red;
+  font-size: 16px;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 3px;
+  margin-top: 20px;
+  text-align: center;
+  width: 500px;
+  margin-left: 300px;
+}
+
+.section-title {
+  display: flex;
+  color: white;
+  border-radius: 30px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/402/150/original/magic-fairy-tale-pastel-sky-background-free-vector.jpg);
+  width: 1200px;
+}
+
+.title {
+  position: relative;
+  left: 155px;
+}
+
+.spells-title {
+  position: relative;
+  left: 600px;
+}
+
+.create-hero {
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 30px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/402/150/original/magic-fairy-tale-pastel-sky-background-free-vector.jpg);
+}
+
+.spells-info {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  border-radius: 30px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/402/150/original/magic-fairy-tale-pastel-sky-background-free-vector.jpg);
+  width: 1200px;
+}
+
+.create-button {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 2px;
+  position: relative;
+  width: 300px;
+  left: 400px;
+}
+
+.create-button:hover {
+  background: #39630f;
+}

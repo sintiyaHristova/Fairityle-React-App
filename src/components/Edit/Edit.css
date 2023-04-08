@@ -1,0 +1,35 @@
+.editFairityle {
+  color: rgb(199, 151, 30);
+  text-align: left;
+  font-weight: bold;
+  align-items: center;
+  margin: 100px 20px auto;
+  background-image: url(https://i.pinimg.com/originals/c0/93/6f/c0936f19e6527d8521f927efd67f2d3f.gif);
+  background-color: aliceblue;
+  width: 600px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.editFairityle h3 {
+  padding: 40px;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  margin: 100px 0 200px 100px;
+}
+
+.save {
+  color: rgb(199, 151, 30);
+  border: 1px solid;
+  padding: 10px;
+  margin: 0 0 10px;
+  border-radius: 20px;
+  width: 200px;
+  background: transparent;
+}
+
+.save:hover {
+  background: #39630f;
+}

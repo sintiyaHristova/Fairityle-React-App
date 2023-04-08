@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+
+.navbar--link {
+  display: flex;
+}
+
+.navbar--link-item {
+  margin: 10px;
+  font-size: 20px;
+  padding: 6px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: white;
+}
+
+.navbar--link-item:hover {
+  background-color: #39630f;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+}
+
+.logoutbutton {
+  background: transparent;
+}

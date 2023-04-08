@@ -1,0 +1,24 @@
+.heroes {
+  padding: 5px;
+  transition: transform 0.2s;
+  width: 500px;
+  height: 350px;
+  background-image: url(https://i.pinimg.com/originals/ec/ac/34/ecac34c2d374563dc531ffb2e78368c7.gif);
+  border-radius: 8px;
+}
+
+.heroes:hover {
+  transform: scale(1.1);
+}
+
+.badge-info {
+  background: -webkit-linear-gradient(to right, #b7e1e1, #1a3954);
+  background: linear-gradient(to right, #b7e1e1, #1a3954);
+  border-radius: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+
