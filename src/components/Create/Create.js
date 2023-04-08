@@ -123,7 +123,7 @@ const Create = ({ history }) => {
                   type="text"
                   name="heroImageURL"
                   id="heroImageURL"
-                  placeholder="Link..."
+                  placeholder="ЛИНК..."
                   required
                 />
                 <span className="actions"></span>
