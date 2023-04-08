@@ -40,6 +40,12 @@ const Header = () => {
               ВСИЧКИ ПРИКАЗКИ
             </NavLink>
           )}
+           {!currentUser && (
+            <NavLink className="navbar--link-item" to="/all">
+              ВСИЧКИ ПРИКАЗКИ
+            </NavLink>
+          )}
+         
           {currentUser && (
             <form onSubmit={logOutHandle}>
               <button className="navbar--link-item logoutbutton">ИЗХОД</button>
@@ -52,3 +58,4 @@ const Header = () => {
 };
 
 export default Header;
+
