@@ -81,16 +81,12 @@ const Create = ({ history }) => {
     <>
       <h2>МОЯТА ПРИКАЗКА И ЛЮБИМИ ГЕРОИ КЪМ НЕЯ</h2>
       {error && <p className="alert">{error}</p>}
-      <div className="section-title">
-        <h4 className="hero-title">ПРИКАЗКА</h4>
-        <h4 className="spells-title">ГЕРОИ</h4>
-      </div>
-
+    
       <form onSubmit={createSubmitHandler}>
         <div className="create-hero">
           <fieldset>
             <p className="field">
-              <label htmlFor="heroName">ЗАГЛАВИЕ</label>
+              <label htmlFor="heroName">ЗАГЛАВИЕ НА ПРИКАЗКАТА</label>
               <span className="input">
                 <input
                   type="text"
