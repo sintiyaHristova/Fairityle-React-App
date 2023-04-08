@@ -2,8 +2,10 @@
 
 Share your author's fairy tales and describe your favorite characters from them. 
 
- 
+## Deployment 
 
+https://fairityle-sintiya.netlify.app/ 
+ 
 ## Front-end 
 
 -   ReactJS 
@@ -13,13 +15,7 @@ Share your author's fairy tales and describe your favorite characters from them.
 
 ## Back-end 
 
--  Firebase 
-
-## Deployment 
-
-https://fairityle-sintiya.netlify.app/ 
-
- 
+-  Firebase  
 
 ## Usage 
 
@@ -43,9 +39,7 @@ In the project directory, you can run:
 
 -  Catalogue     
 
--  Details 
-
- 
+-  Details (but not to the functional activities)
 
 # Private 
 
@@ -60,5 +54,7 @@ In the project directory, you can run:
 -  Edit 
 
 -  Details 
+
+-  Delete
 
 
