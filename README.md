@@ -1,4 +1,4 @@
-##LIVE DEMO: https://fairityle-sintiya.netlify.app/
+## LIVE DEMO: https://fairityle-sintiya.netlify.app/
 
 ## WORK IN PROGRESS!
 
