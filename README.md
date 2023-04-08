@@ -1,6 +1,6 @@
 ## LIVE DEMO: https://fairityle-sintiya.netlify.app/
 
-## WORK IN PROGRESS!
+
 
 # Getting Started with Create React App
 
