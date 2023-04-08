@@ -1,4 +1,3 @@
-import { Redirect } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { db } from "../../Firebase/firebase";
 import { Badge } from "react-bootstrap";
@@ -20,14 +19,17 @@ const AllFairityles = () => {
     });
   }, []);
 
-  if (!currentUser) {
-    return <Redirect exact to="/"></Redirect>;
-  }
+  if (!currentUser || currentUser) {
+    
   return (
     <div className="text-center text-light">
       <h1>
-        <Badge variant="info">Тук е мястото за хора, които обичат да пишат приказки.</Badge>
-        <Badge variant="info">Към всяка приказка може да опишете няколко от любимите си герои.</Badge>
+        <Badge variant="info">
+          Тук е мястото за хора, които обичат да пишат приказки.
+        </Badge>
+        <Badge variant="info">
+          Към всяка приказка може да опишете няколко от любимите си герои.
+        </Badge>
       </h1>
       <br />
       <div className="text-center border-warning">
@@ -41,7 +43,7 @@ const AllFairityles = () => {
         </section>
       </div>
     </div>
-  );
+  )
 };
-
+};
 export default AllFairityles;
